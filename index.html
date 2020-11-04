@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<section class="calculator">
+		<div class="container">
+			<div class="calculator__inner">
+				<div class="calculator__item">
+					<div class="calculator__label">
+						<span class="calculator__text">Общая площадь:</span>
+						<input class="calculator__inp inp1" type="range" step="1" min="1" max="100" list="rangeList1">
+					</div>
+					<span class="rangeValue">51</span>
+				</div>
+	
+				<div class="calculator__item">
+					<div class="calculator__label">
+						<span class="calculator__text">Количество светильников:</span>
+						<input class="calculator__inp inp2" type="range" step="1" min="0" max="30" list="rangeList">
+					</div>
+					<span class="rangeValue1">15</span>
+				</div>
+	
+				<div class="calculator__box">
+					<span class="calculator__text">Фактура:</span>
+					<select class="calculator__select">
+						<option value="700">матовая</option>
+						<option value="800">глянецевая</option>
+						<option value="700">Сатиновая</option>
+						<option value="1500">Тканевая</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="calculator__sum">
+				<div class="calculator__text">Итого:</div>
+				<span class="sum">41700р</span>
+				<div class="calculator__text">Мартериал + установка</div>
+
+			</div>
+
+		</div>
+	</section>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
